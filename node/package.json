@@ -1,0 +1,11 @@
+{
+  "name": "node",
+  "description": "node express",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "4.x",
+    "jade": "~1.11.0",
+    "hbs": "~4.0.0"
+  }
+}
