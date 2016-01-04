@@ -6,6 +6,9 @@ var app = express();
 app.set("views", __dirname + "/views");
 app.set("view engine", "jade");
 
+// 设置静态文件存放
+app.set(express.static('public'));
+
 require ('./routes/user.js')(app);
 require ('./routes/index.js')(app);
 
